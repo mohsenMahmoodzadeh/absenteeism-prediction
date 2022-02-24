@@ -96,6 +96,8 @@ CREATE TABLE predicted_outputs (
     prediction BIT NOT NULL
 );
 ```
+Then you can use [Integration.ipynb](https://github.com/mohsenMahmoodzadeh/absenteeism-prediction/blob/master/notebooks/Integration.ipynb) to insert your data into the database.
+
 
 ### 3. Tableau
 You can see a simple dashboard of this project from [here](https://public.tableau.com/app/profile/mohsen.mahmoodzadeh/viz/365DS-PythonSQLTableau/Dashboard1). If you create some new visualizations, you can send a PR to add your name and your dashborad link to this repo. 
