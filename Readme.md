@@ -18,7 +18,7 @@ This module is an analysis and prediciotn of absenteeism of employees in an orga
 
 ## Setup Guide
 
-### 1.Python
+### 1. Python
 
 Clone the repository:
 
@@ -48,21 +48,21 @@ python -m ipykernel install --name absenteeismkernel
 # Now you get a kernel named `absenteeismkernel` in your jupyter notebook
 ```  
 
-### 2.MySQL
+### 2. MySQL
 You can follow the instructions from [here](https://dev.mysql.com/doc/refman/8.0/en/windows-installation.html) to install and setup.
 
-### 3.Tableau
+### 3. Tableau
 You can download Tableau Public from [here](https://public.tableau.com/en-us/s/download). The installation procedure is straightforward.
 
 
 ## Usage Guide
 
-### 1.Python
+### 1. Python
 You can use [absenteeism.py](https://github.com/mohsenMahmoodzadeh/absenteeism-prediction/blob/master/absenteeism.py) and istantiate `AbsenteeismModel` class with the repo dataset or your own data.
 
 If you are interested in trying the preprocess and learning phases step by step, use [Preprocessing.ipynb](https://github.com/mohsenMahmoodzadeh/absenteeism-prediction/blob/master/notebooks/Preprocessing.ipynb) and then [Logistic Regression.ipynb](https://github.com/mohsenMahmoodzadeh/absenteeism-prediction/blob/master/notebooks/Logistic%20Regression.ipynb).
 
-### 2.MySQL
+### 2. MySQL
 
 Create a database for this project:
 ```
@@ -97,7 +97,7 @@ CREATE TABLE predicted_outputs (
 );
 ```
 
-### 3.Tableau
+### 3. Tableau
 You can see a simple dashboard of this project from [here](https://public.tableau.com/app/profile/mohsen.mahmoodzadeh/viz/365DS-PythonSQLTableau/Dashboard1). If you create some new visualizations, you can send a PR to add your name and your dashborad link to this repo. 
 
 
