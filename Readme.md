@@ -2,6 +2,8 @@
 
 This module is an analysis and prediciotn of absenteeism of employees in an organization. The project is developed in Python integrated with MySQL for storing the data, and Tableau for data visualization.
 
+![Dashboard](./assets/dashboard.png)
+
 ## Environment
 - Python
     - Python: 3.9.1
